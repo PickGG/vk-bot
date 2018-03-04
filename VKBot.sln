@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKBot", "VKBot\VKBot.csproj", "{FBD66072-720F-41E1-938D-73C4703776F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKBot.UnitTests", "VKBot.UnitTests\VKBot.UnitTests.csproj", "{BA9C584B-1606-4605-812D-796BA3DFC4DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FBD66072-720F-41E1-938D-73C4703776F0} = {FBD66072-720F-41E1-938D-73C4703776F0}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
