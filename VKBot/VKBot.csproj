@@ -88,6 +88,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Args\MessageEventArgs.cs" />
+    <Compile Include="Behaviour.cs" />
+    <Compile Include="IVkBot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
