@@ -16,9 +16,10 @@ namespace VKBot
         #endregion
 
         #region Properties
-        public int LongPollCheckInterval => throw new NotImplementedException();
         public bool LongPollWatcherWorking => throw new NotImplementedException();
         public IVkApi VkApi => throw new NotImplementedException();
+
+        int IVkBot.LongPollCheckInterval { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         #endregion
 
         public VkBot(IVkApi vkApi)

@@ -11,7 +11,7 @@ namespace VKBot
         event EventHandler<MessageEventArgs> SendMessage;
 
         IVkApi VkApi { get; }
-        int LongPollCheckInterval { get; }
+        int LongPollCheckInterval { get; set; }
         bool LongPollWatcherWorking { get; }
 
         void RunLongPollWatcher();
